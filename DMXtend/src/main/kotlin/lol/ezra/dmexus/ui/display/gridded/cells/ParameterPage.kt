@@ -14,8 +14,8 @@ import lol.ezra.dmexus.ui.display.gridded.grid.GridContext.Companion.Grid
 class ParameterPage(
    modifier: Modifier = Modifier,
    context: GridContext,
-   width: Int = 5,
-   height: Int = 5,
+   width: Int = 900,
+   height: Int = 900,
    x: Int,
    y: Int,
    color: Color = Color.Red
@@ -30,7 +30,7 @@ class ParameterPage(
          ParamChooser(x = 1, y = 0, context = this, color = Color.Green) { }
          ParamChooser(x = 2, y = 0, context = this, color = Color.Blue) { }
          ParamChooser(x = 3, y = 0, context = this, color = Color.White) { }
-         ParamChooser(x = 4, y = 0, context = this, color = Color.DarkGray) { }
+//         ParamChooser(x = 4, y = 0, context = this, color = Color.DarkGray) { }
       }
    }
 
